@@ -1,0 +1,30 @@
+All we want to do is to store and process data.
+
+
+Do we process the data or store the data first?
+
+Depends!
+It depends on the context.
+
+Many scenarios are possible, some of them are:-
+
+We have a data hungry system with no data at all. User will provide data to us and then we will play with that data.
+
+OR we have some small data with us and we entice the user with that and then we get more data from user.
+
+Alright, we now have data in one way or other. What next, you might ask?
+We will store the data, right? easy peasy?
+
+Actually, our answer is a big NO.
+
+Why?
+
+We don't know or trust the data and we want to sanitize the data, which in turn is nothing but data processing.
+
+So, before the data hits our storage system, we sanitize the data.
+
+But before sanitization, let's see what do we mean by data. What's a good definition of data for our system?
+
+So we now are talking about structure of data. Could be structured or non structured.
+
+And there we discovered SQL vs NOSQL.
