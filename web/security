@@ -7,5 +7,16 @@ Microservices - Multiple executables (decoupled and independent releases can be 
 Microservice Resiliency: If services in microservice architecture fails, we can make use of fault tolerance mechanisms like circuit breaker which is
 basic implementation of primary service or provides default response.
 
+Some keywords:
+Authentication -> Authorization (Priveleges, OAuth)
+Trust Domain and Trust Boundary
+
+Monolith Security Landscape
+1. Limited attack surface
+2. Traffic Interceptor
+3. Shared security context among different services part of the same executable
+
+
+
 
 
