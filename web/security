@@ -1,0 +1,11 @@
+Microservice security
+
+Some Background
+Monolith - Single executable (coupled, one big bang deployment)
+Microservices - Multiple executables (decoupled and independent releases can be done, scaling can be done independently)
+
+Microservice Resiliency: If services in microservice architecture fails, we can make use of fault tolerance mechanisms like circuit breaker which is
+basic implementation of primary service or provides default response.
+
+
+
