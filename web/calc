@@ -2,4 +2,6 @@ Current world population is 8 billion or 8000 million.
 
 Assuming 1% of world population is going to use this service, users = 80 million.
 
-If one user is using the service 5 times a day, number of times our service is used: 5*80 million = 400 million times.
+If one user is using the service 5 times a day, number of times our service is used: 5*80 million = 400 million times a day.
+
+For peak time, when all the users are using the service at the same time, number of times our service is going to be used = 80 million times per second.
