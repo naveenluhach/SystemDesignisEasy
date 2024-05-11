@@ -11,6 +11,6 @@ Storage:
 If each user stores name, phone number and city, we need = name of 10 letters/chars and phone number of 10 letter/chars and city of 10 letters/chars = 30 chars which is 30 bytes
 
 Side Note:
-Now, unit of storage in computer science = Bit, Byte, KiloByte, MegaByte, GigaByte, TeraByte, PetaByte, ExaByte, ZettaByte, YottaBye.
+Now, unit of storage in computer science = Bit, Byte, KiloByte, MegaByte, GigaByte, TeraByte, PetaByte, ExaByte, ZettaByte, YottaByte.
 
 Bit is 0/1, Byte is 8 Bit, KiloByte is 1000 Byte, MegaByte is 1000 KiloByte, GigaByte is 1000 MegaByte, PetaByte is 1000,000 GigaByte etc.
