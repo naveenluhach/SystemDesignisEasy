@@ -1,1 +1,31 @@
+We do logging in the code all the time. Let's understand it through and through and once for all.
+
+Reference is taken from Jay Kreps, Engineer at Linkedin.
+
+Engineers occasionaly tail log files but other than that, most engineers don't think about logs.
+
+When we think of logs, we think of loosely structured requests, errors, or other familiar messages in a sequence of 
+rotating files. This is a degenerative form for humans to read.
+
+But reading logs in not scalable when there are many services and servers are involved. The purpose of logs changes to
+input to queries and graphs in order to understand.
+
+It is important to think of logs as an abstract data structure, not a text file.
+Append-only sequence of records. They record what happened and when.
+
+Logs in Databases:
+1. In the event of crash, logs are used to restore persistent structures.
+2. To keep a remote replica database in sync, the sequence of changes that happended is used. Examples are XStream and GoldenGate.
+
+Origin of logs is in database internals, that is why, the concept of a machine readable log os not widely known.
+
+Physical logs - logging the content of each row that is changed.
+Logical logs - logging the commands that lead to row changes.
+
+Distributed systems commonly distinguishes two broad approaches to processing and replication.
+1. Primary Backup
+2. State Machine Replication
+
+
+
 
